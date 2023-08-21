@@ -1,9 +1,17 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<script>
+import Form from '../components/form.vue'
+export default{
+  components:{
+    Form
+  }
+}
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+<div>
+  <div class="container">
+    <h2 class="text-white mb-5">Sparklet Notes</h2>
+    <Form/>
+  </div>
+</div>
 </template>
